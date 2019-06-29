@@ -1,7 +1,5 @@
-Exiv2 v0.27.2.2 = Exiv2 v0.27.2 RC2
------------------------------------
-
-Second Release Candidate for quarterly "dot" release of Exiv2 v0.27.2
+Exiv2 v0.27.2
+-------------
 
 A huge thank you to Kevin for outstanding contributions to this release.
 Thank You to Dan and Luis for their solid efforts on Exiv2.
@@ -26,7 +24,7 @@ https://github.com/Exiv2/exiv2/milestone/4?closed=1
 
 Robin Mills
 robin@clanmills.com
-2019-06-29
+2019-07-12
 
 Headline Features of Exiv2 v0.27.1
 ----------------------------------
