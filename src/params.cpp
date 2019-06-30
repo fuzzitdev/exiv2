@@ -22,9 +22,16 @@
 
 #include "actions.hpp"
 #include "i18n.h"  // NLS support.
+#include <exiv2/convert.hpp>
+#include <exiv2/error.hpp>
 
 #if defined(_MSC_VER)
 #include <Windows.h>
+#endif
+
+#if defined(_WIN32) || defined(__CYGWIN__) || defined(__MINGW__) || defined(_MSC_VER)
+#include <fcntl.h>
+#include <io.h>
 #endif
 
 #include <fstream>
